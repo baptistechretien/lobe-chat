@@ -33,7 +33,7 @@ export const DEFAULT_AGENT_CONFIG: LobeAgentConfig = {
   },
   plugins: [],
   provider: ModelProvider.OpenAI,
-  systemRole: '',
+  systemRole: 'Bonjour, je suis votre assistant utile, vous pouvez commencer une conversation avec moi maintenant !',
   tts: DEFAUTT_AGENT_TTS_CONFIG,
 };
 
